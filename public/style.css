@@ -1,0 +1,26 @@
+/* fontawesome url  */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+
+
+.header_bg , .bg-navbar {
+    background: rgba(247, 241, 224, 0.87);
+}
+
+
+.card-bg{
+    background: #F1F1F1 ;
+}
+
+.margin-Y {
+    margin: 100px 0;
+}
+
+/* preloader setup  */
+#preloader{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 1000;
+    background: #fff url("./images/preloader.gif") no-repeat center;
+    background-size: 10%;
+}
